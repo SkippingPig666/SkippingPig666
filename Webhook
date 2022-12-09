@@ -1,0 +1,6 @@
+import request
+
+url = "https://discord.com/api/webhooks/1050873705011613856/6z0O6-Furxshj5_FZ9Ao_vPeO8xMc7B_dFbuho91QSxplJrct2JnI5zZE_BRNOj8LofK"
+while true:
+ Message = input()
+ r = request.post(url, data={"content": message})
